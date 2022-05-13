@@ -14,7 +14,7 @@ public class BonjourNom {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Mises a jour de BonjourNom
+        // Mises a jour de BonjourNom dans Test_
         Person martin = new Person(args[0],args[1],Integer.parseInt(args[2]));
         System.out.println("Bonjour "+martin.getFirstName()+" "+martin.getLastName()+ " "+martin.getAge());
     }
